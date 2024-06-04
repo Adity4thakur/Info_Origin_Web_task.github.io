@@ -1,0 +1,12 @@
+<nav>
+  <ul>
+    <li><a routerLink="home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+    <li><a routerLink="user" routerLinkActive="active" ariaCurrentWhenActive="page">User</a></li>
+    <li><a routerLink="admin" routerLinkActive="active" ariaCurrentWhenActive="page">Admin</a>
+    </li>
+  </ul>
+  <a routerLink="home" routerLinkActive="active" class="back-button">Back</a>
+</nav>
+<div class="hero-section">
+  <router-outlet /><!-- The routed views render in the <router-outlet>-->
+</div>

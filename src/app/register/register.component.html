@@ -1,0 +1,78 @@
+<div class="container">
+    <h2>Registration Form</h2>
+    <form>
+        <div class="form-group">
+            <label for="id">ID:</label>
+            <input type="text" id="id" placeholder="Enter ID">
+        </div>
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" placeholder="Enter City">
+        </div>
+
+        <div class="form-group">
+            <label for="contact">Contact Details:</label>
+            <input type="text" id="contact" placeholder="Enter Contact Details">
+        </div>
+
+        <h4>Designation:</h4>
+        <div class="radio-group">
+            <input type="radio" id="intern" name="designation" value="intern">
+            <label for="intern">Intern</label>
+            <input type="radio" id="paid-intern" name="designation" value="paid-intern">
+            <label for="paid-intern">Paid Intern</label>
+            <input type="radio" id="employee" name="designation" value="employee">
+            <label for="employee">Employee</label>
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the Terms and Conditions</label>
+        </div>
+
+        <button (click)="validateForm()">Submit</button>
+    </form>
+</div>
+
+<!-- 
+
+} -->
+
+
+<!-- <div class="container">
+    <h2>Registration Form</h2>
+    <form>
+        <label for="id">Enter ID:</label>
+        <input type="text" id="id" placeholder="Enter ID">
+
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" placeholder="Enter Name">
+
+        <label for="city">Enter City:</label>
+        <input type="text" id="city" placeholder="Enter City">
+
+        <label for="contact">Enter Contact Details:</label>
+        <input type="text" id="contact" placeholder="Enter Contact Details">
+
+        <h3>Designation:</h3>
+        <input type="checkbox" id="intern" name="designation">
+        <label for="intern">Intern</label>
+
+        <input type="checkbox" id="paid-intern" name="designation">
+        <label for="paid-intern">Paid Intern</label>
+
+        <input type="checkbox" id="employee" name="designation">
+        <label for="employee">Employee</label>
+
+        <input type="checkbox" id="terms" required>
+        <label for="terms">I agree to the Terms and Conditions</label>
+
+        <button type="submit">Submit</button>
+    </form>
+</div> -->

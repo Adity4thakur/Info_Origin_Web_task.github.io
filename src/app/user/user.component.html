@@ -1,0 +1,9 @@
+<div class="login-container">
+    <h3>User Login</h3>
+    <input #username type="text" placeholder="Username">
+    <input #password type="password" placeholder="Password">
+    <div>
+        <button (click)="login(username.value, password.value)">Login</button>
+        <button (click)="navigateToRegister()">Register User</button>
+    </div>
+</div>
